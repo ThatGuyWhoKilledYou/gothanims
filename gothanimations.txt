@@ -1,0 +1,409 @@
+--Made by gothbioodz goth#0002
+-- 
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Body = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local madeby = Instance.new("TextLabel")
+local myname = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Ninja = Instance.new("TextButton")
+local Superhero = Instance.new("TextButton")
+local Werewolf = Instance.new("TextButton")
+local Vampire = Instance.new("TextButton")
+local Mage = Instance.new("TextButton")
+local Stylish = Instance.new("TextButton")
+local bubbly = Instance.new("TextButton")
+local Levitation = Instance.new("TextButton")
+local Zombie = Instance.new("TextButton")
+local Elder = Instance.new("TextButton")
+local Knight = Instance.new("TextButton")
+local Toy = Instance.new("TextButton")
+local Cartoony = Instance.new("TextButton")
+local Astronaut = Instance.new("TextButton")
+local Robot = Instance.new("TextButton")
+local Pirate = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Body.Name = "Body"
+Body.Parent = ScreenGui
+Body.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Body.BorderColor3 = Color3.fromRGB(123, 255, 0)
+Body.BorderSizePixel = 2
+Body.Position = UDim2.new(0.418533593, 0, 0.113382898, 0)
+Body.Size = UDim2.new(0, 181, 0, 336)
+Body.Visible = false
+Body.Active = true
+Body.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = Body
+Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.Position = UDim2.new(0.0939226747, 0, 0.0446428359, 0)
+Title.Size = UDim2.new(0, 147, 0, 32)
+Title.Font = Enum.Font.Bodoni
+Title.Text = "Anim Kit"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 30.000
+Title.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Title.TextStrokeTransparency = 0.300
+
+madeby.Name = "madeby"
+madeby.Parent = Body
+madeby.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+madeby.BorderColor3 = Color3.fromRGB(0, 0, 0)
+madeby.Position = UDim2.new(0.160220981, 0, 0.15773809, 0)
+madeby.Size = UDim2.new(0, 122, 0, 20)
+madeby.Font = Enum.Font.SourceSans
+madeby.Text = "made by gothbioodzz"
+madeby.TextColor3 = Color3.fromRGB(17, 255, 0)
+madeby.TextSize = 14.000
+
+myname.Name = "myname"
+myname.Parent = Body
+myname.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+myname.BorderColor3 = Color3.fromRGB(0, 0, 0)
+myname.Position = UDim2.new(0.160220981, 0, 0.901785731, 0)
+myname.Size = UDim2.new(0, 122, 0, 20)
+myname.Font = Enum.Font.SourceSans
+myname.Text = "goth#0002"
+myname.TextColor3 = Color3.fromRGB(17, 255, 0)
+myname.TextSize = 14.000
+
+ScrollingFrame.Parent = Body
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BackgroundTransparency = 0.250
+ScrollingFrame.BorderColor3 = Color3.fromRGB(25, 255, 0)
+ScrollingFrame.Position = UDim2.new(0.999212265, 0, 0.0476190262, 0)
+ScrollingFrame.Size = UDim2.new(0, 100, 0, 307)
+
+Ninja.Name = "Ninja"
+Ninja.Parent = ScrollingFrame
+Ninja.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Ninja.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Ninja.Position = UDim2.new(0.119999997, 0, 0.0193452388, 0)
+Ninja.Size = UDim2.new(0, 76, 0, 18)
+Ninja.Font = Enum.Font.Garamond
+Ninja.Text = "Ninja"
+Ninja.TextColor3 = Color3.fromRGB(5, 255, 1)
+Ninja.TextSize = 14.000
+Ninja.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Ninja.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/swuAHZKd", true))()
+end)
+
+Superhero.Name = "Superhero"
+Superhero.Parent = ScrollingFrame
+Superhero.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Superhero.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Superhero.Position = UDim2.new(0.119999997, 0, 0.0565476194, 0)
+Superhero.Size = UDim2.new(0, 76, 0, 18)
+Superhero.Font = Enum.Font.Garamond
+Superhero.Text = "Superhero"
+Superhero.TextColor3 = Color3.fromRGB(5, 255, 1)
+Superhero.TextSize = 14.000
+Superhero.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Superhero.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/rs5fSHp", true))()
+end)
+
+Werewolf.Name = "Werewolf"
+Werewolf.Parent = ScrollingFrame
+Werewolf.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Werewolf.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Werewolf.Position = UDim2.new(0.119999997, 0, 0.095238097, 0)
+Werewolf.Size = UDim2.new(0, 76, 0, 18)
+Werewolf.Font = Enum.Font.Garamond
+Werewolf.Text = "Werewolf"
+Werewolf.TextColor3 = Color3.fromRGB(5, 255, 1)
+Werewolf.TextSize = 14.000
+Werewolf.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Werewolf.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/3nQRgdJE", true))()
+end)
+
+Vampire.Name = "Vampire"
+Vampire.Parent = ScrollingFrame
+Vampire.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Vampire.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Vampire.Position = UDim2.new(0.119999997, 0, 0.133928567, 0)
+Vampire.Size = UDim2.new(0, 76, 0, 18)
+Vampire.Font = Enum.Font.Garamond
+Vampire.Text = "Vampire"
+Vampire.TextColor3 = Color3.fromRGB(5, 255, 1)
+Vampire.TextSize = 14.000
+Vampire.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Vampire.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/qq062W7q", true))()
+end)
+
+Mage.Name = "Mage"
+Mage.Parent = ScrollingFrame
+Mage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Mage.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Mage.Position = UDim2.new(0.119999997, 0, 0.172619045, 0)
+Mage.Size = UDim2.new(0, 76, 0, 18)
+Mage.Font = Enum.Font.Garamond
+Mage.Text = "Mage"
+Mage.TextColor3 = Color3.fromRGB(5, 255, 1)
+Mage.TextSize = 14.000
+Mage.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Mage.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ymYwcazn", true))()
+end)
+
+Stylish.Name = "Stylish"
+Stylish.Parent = ScrollingFrame
+Stylish.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Stylish.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Stylish.Position = UDim2.new(0.119999997, 0, 0.214285716, 0)
+Stylish.Size = UDim2.new(0, 76, 0, 18)
+Stylish.Font = Enum.Font.Garamond
+Stylish.Text = "Stylish"
+Stylish.TextColor3 = Color3.fromRGB(5, 255, 1)
+Stylish.TextSize = 14.000
+Stylish.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Stylish.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ZhmyqCBm", true))()
+end)
+
+bubbly.Name = "bubbly"
+bubbly.Parent = ScrollingFrame
+bubbly.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+bubbly.BorderColor3 = Color3.fromRGB(1, 255, 1)
+bubbly.Position = UDim2.new(0.119999997, 0, 0.254464298, 0)
+bubbly.Size = UDim2.new(0, 76, 0, 18)
+bubbly.Font = Enum.Font.Garamond
+bubbly.Text = "Bubbly"
+bubbly.TextColor3 = Color3.fromRGB(5, 255, 1)
+bubbly.TextSize = 14.000
+bubbly.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+bubbly.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/iq6ka9vm", true))()
+end)
+
+Levitation.Name = "Levitation"
+Levitation.Parent = ScrollingFrame
+Levitation.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Levitation.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Levitation.Position = UDim2.new(0.119999997, 0, 0.291666687, 0)
+Levitation.Size = UDim2.new(0, 76, 0, 18)
+Levitation.Font = Enum.Font.Garamond
+Levitation.Text = "Levitation"
+Levitation.TextColor3 = Color3.fromRGB(5, 255, 1)
+Levitation.TextSize = 14.000
+Levitation.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Levitation.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ujiAjN4w", true))()
+end)
+
+Zombie.Name = "Zombie"
+Zombie.Parent = ScrollingFrame
+Zombie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Zombie.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Zombie.Position = UDim2.new(0.119999997, 0, 0.331845254, 0)
+Zombie.Size = UDim2.new(0, 76, 0, 18)
+Zombie.Font = Enum.Font.Garamond
+Zombie.Text = "Zombie"
+Zombie.TextColor3 = Color3.fromRGB(5, 255, 1)
+Zombie.TextSize = 14.000
+Zombie.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Zombie.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/T2twP4QX", true))()
+end)
+
+Elder.Name = "Elder"
+Elder.Parent = ScrollingFrame
+Elder.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Elder.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Elder.Position = UDim2.new(0.119999997, 0, 0.370535731, 0)
+Elder.Size = UDim2.new(0, 76, 0, 18)
+Elder.Font = Enum.Font.Garamond
+Elder.Text = "Elder"
+Elder.TextColor3 = Color3.fromRGB(5, 255, 1)
+Elder.TextSize = 14.000
+Elder.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Elder.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/NRsuBdrV", true))()
+end)
+
+Knight.Name = "Knight"
+Knight.Parent = ScrollingFrame
+Knight.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Knight.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Knight.Position = UDim2.new(0.119999997, 0, 0.412202388, 0)
+Knight.Size = UDim2.new(0, 76, 0, 18)
+Knight.Font = Enum.Font.Garamond
+Knight.Text = "Knight"
+Knight.TextColor3 = Color3.fromRGB(5, 255, 1)
+Knight.TextSize = 14.000
+Knight.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Knight.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/HdawYgKs", true))()
+end)
+
+Toy.Name = "Toy"
+Toy.Parent = ScrollingFrame
+Toy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toy.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Toy.Position = UDim2.new(0.119999997, 0, 0.455357134, 0)
+Toy.Size = UDim2.new(0, 76, 0, 18)
+Toy.Font = Enum.Font.Garamond
+Toy.Text = "Toy"
+Toy.TextColor3 = Color3.fromRGB(5, 255, 1)
+Toy.TextSize = 14.000
+Toy.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Toy.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/42P7A9EX", true))()
+end)
+
+Cartoony.Name = "Cartoony"
+Cartoony.Parent = ScrollingFrame
+Cartoony.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Cartoony.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Cartoony.Position = UDim2.new(0.119999997, 0, 0.495535702, 0)
+Cartoony.Size = UDim2.new(0, 76, 0, 18)
+Cartoony.Font = Enum.Font.Garamond
+Cartoony.Text = "Cartoony"
+Cartoony.TextColor3 = Color3.fromRGB(5, 255, 1)
+Cartoony.TextSize = 14.000
+Cartoony.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Cartoony.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/QtKXa0HW", true))()
+end)
+
+Astronaut.Name = "Astronaut"
+Astronaut.Parent = ScrollingFrame
+Astronaut.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Astronaut.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Astronaut.Position = UDim2.new(0.119999997, 0, 0.537202358, 0)
+Astronaut.Size = UDim2.new(0, 76, 0, 18)
+Astronaut.Font = Enum.Font.Garamond
+Astronaut.Text = "Astronaut"
+Astronaut.TextColor3 = Color3.fromRGB(5, 255, 1)
+Astronaut.TextSize = 14.000
+Astronaut.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Astronaut.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/2wkDkCqL", true))()
+end)
+
+Robot.Name = "Robot"
+Robot.Parent = ScrollingFrame
+Robot.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Robot.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Robot.Position = UDim2.new(0.119999997, 0, 0.574404716, 0)
+Robot.Size = UDim2.new(0, 76, 0, 18)
+Robot.Font = Enum.Font.Garamond
+Robot.Text = "Robot"
+Robot.TextColor3 = Color3.fromRGB(5, 255, 1)
+Robot.TextSize = 14.000
+Robot.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Robot.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/DkeFs5sr", true))()
+end)
+
+Pirate.Name = "Pirate"
+Pirate.Parent = ScrollingFrame
+Pirate.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Pirate.BorderColor3 = Color3.fromRGB(1, 255, 1)
+Pirate.Position = UDim2.new(0.119999997, 0, 0.610118985, 0)
+Pirate.Size = UDim2.new(0, 76, 0, 18)
+Pirate.Font = Enum.Font.Garamond
+Pirate.Text = "Pirate"
+Pirate.TextColor3 = Color3.fromRGB(5, 255, 1)
+Pirate.TextSize = 14.000
+Pirate.TextStrokeColor3 = Color3.fromRGB(17, 255, 0)
+Pirate.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/MSwFc90e", true))()
+end)
+
+Close.Name = "Close"
+Close.Parent = Body
+Close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderColor3 = Color3.fromRGB(2, 255, 18)
+Close.Position = UDim2.new(-0.176795587, 0, 0.0863095224, 0)
+Close.Size = UDim2.new(0, 32, 0, 69)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "Close"
+Close.TextColor3 = Color3.fromRGB(0, 255, 17)
+Close.TextSize = 14.000
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Open.BackgroundTransparency = 0.350
+Open.BorderColor3 = Color3.fromRGB(0, 255, 59)
+Open.Position = UDim2.new(0.00916496664, 0, 0.392193288, 0)
+Open.Size = UDim2.new(0, 102, 0, 22)
+Open.Font = Enum.Font.SourceSans
+Open.Text = "OPEN"
+Open.TextColor3 = Color3.fromRGB(4, 255, 0)
+Open.TextSize = 14.000
+
+-- Scripts:
+
+local function MGQHQQ_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(MGQHQQ_fake_script)()
+local function SRHYWR_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	local frame = script.Parent.Parent.Body
+	local open = false
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+	
+	
+end
+coroutine.wrap(SRHYWR_fake_script)()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
